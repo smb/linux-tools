@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/webseiten/bdv-wow.de/dev/wp-content/plugins/wow-server-status-widget'
+let g:netrw_dirhist_2='/webseiten/bdv-wow.de/dev/wp-content/plugins/wowhead-tooltips'
+let g:netrw_dirhist_3='/webseiten/bdv-wow.de/dev/wp-content/plugins/sb-misc'
+let g:netrw_dirhist_4='/usr/share/icinga-web/app/config'
