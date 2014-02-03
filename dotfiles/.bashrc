@@ -6,6 +6,11 @@
 HISTCONTROL=ignoredups:ignorespace
 shopt -s histappend
 
+HISTSIZE=2000
+HISTFILESIZE=4000
+
+shopt -s checkwinsize
+
 #PS1
 # export PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;33m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\] '
 export PS1="\[\e[01;34m\]\t \[\e[00;33m\]\u@\[\e[00;33m\]\h\[\e[00;37m\]:[\[\e[00;32m\]\w]\[\e[00;31m\]\$(__git_ps1) \[\e[0m\]\$ "
